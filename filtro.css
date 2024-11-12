@@ -1,0 +1,27 @@
+/* cambiado de input a .input */
+.input {
+  width: 500px;
+  height: 40px;
+  font-size: 18px;
+}
+
+/* agregado un   flex-direction: column; para que los elementos de puestren en columna */
+#lista-de-productos {
+  display: flex;
+  flex-direction: column;
+}
+
+.producto {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.producto img {
+  width: 70%;
+  height: auto
+}
